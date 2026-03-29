@@ -1,34 +1,34 @@
 # Personal Academic Website
 
-一个基于 Vite + React + TypeScript 的 GitHub Pages 个人学术网站模板。
+This is a personal academic website template based on Vite + React + TypeScript for GitHub Pages.
 
-## 已包含内容
+## Features Included
 
-- 首页 Hero 区域
-- 研究简介
-- 代表性论文
-- 研究项目
-- 简历与经历
-- 联系方式
-- GitHub Pages 自动部署工作流
+- Homepage hero section
+- Research introduction
+- Representative publications
+- Research projects
+- CV and experience
+- Contact information
+- GitHub Pages auto-deployment workflow
 
-## 本地开发
+## Local Development
 
-1. 安装 Node.js LTS
-2. 安装依赖：`npm install`
-3. 启动开发环境：`npm run dev`
-4. 构建生产版本：`npm run build`
+1. Install Node.js LTS
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Build for production: `npm run build`
 
-## GitHub Pages 部署
+## GitHub Pages Deployment
 
-1. 将代码推送到 GitHub 仓库的 `main` 分支。
-2. 在仓库设置中开启 **Pages**，Source 选择 **GitHub Actions**。
-3. 推送后会自动执行 [.github/workflows/deploy.yml](.github/workflows/deploy.yml)。
+1. Push your code to the `main` branch of your GitHub repository.
+2. In repository settings, enable **Pages** and set Source to **GitHub Actions**.
+3. After pushing, the workflow [.github/workflows/deploy.yml](.github/workflows/deploy.yml) will run automatically.
 
-`vite.config.ts` 会根据 `GITHUB_REPOSITORY` 自动设置 `base` 路径，适合仓库名形式的 Pages 地址。
+`vite.config.ts` will automatically set the `base` path according to `GITHUB_REPOSITORY`, suitable for repository-named Pages URLs.
 
-## 你接下来需要替换的内容
+## What You Need to Customize
 
-- [src/App.tsx](src/App.tsx) 中的姓名、单位、研究方向、论文、项目和联系方式
-- 如需简历下载，可把 PDF 放到 `public/` 后更新链接
-- 如需头像，可在 `src/` 或 `public/` 中加入图片并替换默认字母头像
+- Update your name, affiliation, research interests, publications, projects, and contact info in [src/App.tsx](src/App.tsx)
+- For CV download, place your PDF in `public/` and update the link
+- For a profile photo, add your image to `src/` or `public/` and replace the default avatar
