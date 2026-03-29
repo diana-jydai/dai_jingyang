@@ -1,5 +1,6 @@
 {
   "name": "personal-academic-site",
+  "homepage": "https://diana-jydai.github.io/dai_jingyang",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -7,6 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
