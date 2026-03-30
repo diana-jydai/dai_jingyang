@@ -5,7 +5,7 @@ import ipfaImg from './ipfa.jpg'
 import icmlImg from './icml.jpg'
 import tmlrImg from './tmlr.jpg'
 import iscasPaper from './ISCAS2026_ICNet_for_Mutimodal_PCB_Image_Analysis.pdf'
-import icmlPaper from './12977.pdf'
+import icmlPaper from './2509.pdf'
 import tmlrPaper from './6809.pdf'
 
 // SVG icons for email, scholar, and LinkedIn
