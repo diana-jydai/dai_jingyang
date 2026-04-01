@@ -143,11 +143,11 @@ const content: Content = {
       'Hi there,',
       'I am currently a Project Officer in <a href="https://scholar.google.com/citations?user=BkCI7rEAAAAJ&hl=en" target="_blank" rel="noreferrer">Professor Tay Wee Peng</a>’s SIGNAL Group at EEE, NTU, where I am co-supervised by <a href="https://scholar.google.com/citations?user=EA0VBD8AAAAJ&hl=en" target="_blank" rel="noreferrer">Dr. Ji Feng</a>.',
       'My current project focuses on wireless network topology design and detecting incomplete information using Graph Neural Networks (GNNs) or graph reconstruction models.',
-      'Beyond my current research, I am also deeply interested in Flow Matching, agent-based systems, and AI for Science, especially in finance. I am excited about the possibility of pursuing a PhD where I can further explore these areas.',
+      'Beyond my current research, I am also deeply interested in Flow Matching, LLM, agent-based systems, and AI for Science. I am excited about the possibility of pursuing an AI engineer or a PhD where I can further explore these areas.',
     ],
   },
   news: [
-    { date: '2026-01', text: 'Invited talk at Nanhua Futures & Davos Global Sharpers Community on "Three key elements of AI".' },
+    { date: '2026-01', text: 'Invited talk at Nanhua Futures & Davos Global Shapers Community on "Three key elements of AI".' },
     { date: '2026-01', text: 'One paper (ICNet) was accepted to IEEE ISCAS 2026.' },
     { date: '2025-07', text: 'Joined NTU SIGNAL group as a Project Officer.' },
     { date: '2025-07', text: 'Graduated from NTU with B.Eng. (Hons Distinction), minor in Design and System Thinking.' },
