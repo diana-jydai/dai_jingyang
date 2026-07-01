@@ -219,7 +219,7 @@ const content: Content = {
     links: [
         { label: 'SIGNAL Members Page', href: 'https://wptay.github.io/members.html' },
     ],
-    email: 'daij0011@e.ntu.edu.sg / jingyang.dai@ntu.edu.sg',
+    email: 'daij0019@e.ntu.edu.sg / jingyang.dai@ntu.edu.sg',
     linkedin: 'https://www.linkedin.com/in/jingyangdai',
     scholarLabel: 'Google Scholar',
     scholarHref: 'https://scholar.google.com/citations?hl=en&user=WX_382IAAAAJ',
