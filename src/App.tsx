@@ -135,18 +135,18 @@ const content: Content = {
   },
   bioSection: {
     name: 'Dai, Jingyang 戴婧扬',
-    title: 'Project Officer (Project Spyder, DSO National Laboratories)',
-    subtitle: '',
-    affiliation: 'SIGNAL Group, School of Electrical and Electronic Engineering, NTU',
+    title: 'Incoming PhD student @ NTU CCDS',
+    subtitle: 'Project Officer, SIGNAL Group @ NTU EEE',
+    affiliation: '',
     mentor: '',
     bio: [
       'Hi there,',
-      'I am currently a Project Officer in <a href="https://scholar.google.com/citations?user=BkCI7rEAAAAJ&hl=en" target="_blank" rel="noreferrer">Professor Tay Wee Peng</a>’s SIGNAL Group at EEE, NTU, where I am co-supervised by <a href="https://scholar.google.com/citations?user=EA0VBD8AAAAJ&hl=en" target="_blank" rel="noreferrer">Dr. Ji Feng</a>.',
-      'My current project focuses on wireless network topology design and detecting incomplete information using Graph Neural Networks (GNNs) or graph reconstruction models.',
-      'Beyond my current research, I am also deeply interested in Flow Matching, LLM, agent-based systems, and AI for Science. I am excited about the possibility of pursuing an AI engineer or a PhD where I can further explore these areas.',
+      'I am currently a Project Officer in <a href="https://scholar.google.com/citations?user=BkCI7rEAAAAJ&hl=en" target="_blank" rel="noreferrer">Professor Tay Wee Peng</a>’s SIGNAL Group at NTU EEE, where I am co-supervised by <a href="https://scholar.google.com/citations?user=EA0VBD8AAAAJ&hl=en" target="_blank" rel="noreferrer">Dr. Ji Feng</a>. And I will become a PhD student in NTU CCDS supervised by <a href="https://scholar.google.com/citations?user=_Pvgwd0AAAAJ&hl=en" target="_blank" rel="noreferrer">Professor Liu Yang</a> from August 2026.',
+      'My research topics will focus on the intersection of AI and finance, including but not limited to LLM agent framework enhancement, quant trading strategy optimization.',
     ],
   },
   news: [
+    { date: '2026-04', text: 'One paper (Explainable Error Detection in Integrated Circuits Image Segmentation via Graph Neural Networks) was accepted to Transactions on Machine Learning Research (TMLR).' },
     { date: '2026-01', text: 'Invited talk at Nanhua Futures & Davos Global Shapers Community on "Three key elements of AI".' },
     { date: '2026-01', text: 'One paper (ICNet) was accepted to IEEE ISCAS 2026.' },
     { date: '2025-07', text: 'Joined NTU SIGNAL group as a Project Officer.' },
@@ -156,6 +156,17 @@ const content: Content = {
   publications: {
   helper: '',
   items: [
+    {
+      title: 'Explainable Error Detection in Integrated Circuits Image Segmentation via Graph Neural Networks',
+      authors:
+        'Xiaoyu Ma, Jingyang Dai, Feng Ji, Deruo Cheng, Yiqiong Shi, Bah Hwee Gwee',
+      venue: 'Transactions on Machine Learning Research (TMLR)',
+      year: '2026',
+      image: tmlrImg,
+      links: [
+        { label: 'Paper', href: tmlrPaper },
+      ],
+    },
     {
       title: 'ICNet: Cross-Modality Image Analysis for IC Localization in Printed Circuit Boards',
       authors:
@@ -187,22 +198,11 @@ const content: Content = {
       title: 'It is still at rebuttal stage, please click on attached paper for details',
       authors:
         'Yanan Zhao, Feng Ji, Jingyang Dai, Jiazhe Ma, and Wee Peng Tay',
-      venue: ' International Conference on Machine Learning (ICML)',
+      venue: 'Conference on Neural Information Processing Systems (NeurIPS)',
       year: '2026',
       image: icmlImg,
       links: [
         { label: 'Paper', href: icmlPaper },
-      ],
-    },
-    {
-      title: 'It is still at rebuttal stage, please click on attached paper for details',
-      authors:
-        'MA XIAOYU, Feng Ji, Deruo Cheng, Yiqiong Shi, Jingyang Dai, Bah-Hwee Gwee ',
-      venue: 'Transactions on Machine Learning Research (TMLR)',
-      year: '2026',
-      image: tmlrImg,
-      links: [
-        { label: 'Paper', href: tmlrPaper },
       ],
     },
   ],
@@ -277,7 +277,9 @@ function App() {
                   </span>
                 </p>
 
-                <p style={{ marginBottom: 0, lineHeight: 1.7 }}>{content.bioSection.affiliation}</p>
+                {content.bioSection.affiliation && (
+                  <p style={{ marginBottom: 0, lineHeight: 1.7 }}>{content.bioSection.affiliation}</p>
+                )}
 
                 {content.bioSection.mentor && <p>{content.bioSection.mentor}</p>}
 
