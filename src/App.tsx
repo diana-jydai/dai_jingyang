@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import profileImg from './dai-profile.jpg'
+import profileImg from './dai-profile.png'
 import iscasImg from './iscas.jpg'
 import ipfaImg from './ipfa.jpg'
 import icmlImg from './icml.jpg'
